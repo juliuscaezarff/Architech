@@ -1,0 +1,45 @@
+.textImageSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.textContainer {
+  flex: 2 1 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+
+.sectionSubtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d92123;
+}
+
+.sectionTitle {
+  color: #191919;
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 1.2rem 1.8rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #d92123;
+  color: #ffff;
+  align-self: end;
+}
+
+.imageContainer {
+  flex: 1 1 300px;
+  position: relative;
+}
+
+.imageContainer i {
+  position: absolute;
+}
