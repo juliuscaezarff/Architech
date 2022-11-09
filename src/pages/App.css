@@ -43,3 +43,36 @@
 .imageContainer i {
   position: absolute;
 }
+
+#otherSevices {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.service {
+  position: relative;
+}
+
+.service i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.serviceInfo {
+  background-color: #eff3f4;
+  padding: 2rem 1.4rem;
+  min-height: 250px;
+  margin-top: -3rem;
+  z-index: 2;
+  position: relative;
+}
+
+.service h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
