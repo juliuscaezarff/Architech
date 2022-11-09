@@ -5,7 +5,7 @@ import Services from '../components/layout/Services'
 import Image from '/main-banner.avif'
 
 import { FaUsers } from 'react-icons/fa'
-import { BsBank } from 'react-icons/bs'
+import { BsBank, BsFillBriefcaseFill, BsFillBookFill } from 'react-icons/bs'
 
 function Home() {
   return (
@@ -23,13 +23,15 @@ function Home() {
           </a>
         </div>
         <div id="expertiseImageContainer" className="imageContainer">
-          <i><FaUsers /></i>
+          <i>
+            <FaUsers />
+          </i>
           <img
             src="/banner-team.avif"
             alt="Imagem contendo pessoas conversando em uma empresa sobre projetos"
           />
         </div>
-        <div className="otherSevices">
+        <div id="otherSevices">
           <Services
             img={Image}
             icon={BsBank}
@@ -56,6 +58,29 @@ function Home() {
           />
         </div>
       </main>
+      <section id="about">
+        <div id="aboutText">
+          <p className="sectionSubtitle">Sobre nós</p>
+          <h3>
+            Um empresa que tem o foco no cliente, aconselhando da melhor forma e
+            conseguindo os melhores resultados
+          </h3>
+          <div className="aboutDescription">
+            <i><BsFillBriefcaseFill /></i>
+            <div>
+              <h4>Advogados Atualizados</h4>
+              <p>Nós promovemos treinamnetos mensais a todos os nossos colaboradores</p>
+            </div>
+          </div>
+          <div className="aboutDescription">
+            <i><BsFillBookFill /></i>
+            <div>
+              <h4>Domínio das novas tecnologias</h4>
+              <p>Nossos engenheiros são especializados em várias tecnologias para construir softwares melhores</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
