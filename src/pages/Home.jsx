@@ -2,6 +2,8 @@ import './App.css'
 
 import Header from '../components/layout/Header'
 import Services from '../components/layout/Services'
+import Conquests from '../components/layout/Conquests'
+
 import Image from '/main-banner.avif'
 
 import { FaUsers } from 'react-icons/fa'
@@ -79,6 +81,24 @@ function Home() {
               <p>Nossos engenheiros são especializados em várias tecnologias para construir softwares melhores</p>
             </div>
           </div>
+        </div>
+        <div id='aboutConquests'>
+          <Conquests 
+            number={50}
+            text={"Engenheiros"}
+          />
+           <Conquests 
+            number={120}
+            text={"Projetos"}
+          />
+           <Conquests 
+            number={30}
+            text={"Empresas parceiras"}
+          />
+           <Conquests 
+            number={7}
+            text={"Prêmios empresariais"}
+          />
         </div>
       </section>
     </div>
