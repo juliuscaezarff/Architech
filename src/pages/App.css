@@ -76,3 +76,51 @@
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+
+/* About */
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+#aboutText {
+  background-image: url("/banner-test.avif");
+  background-size: cover;
+  background-position: center;
+  color: #191919;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 3rem;
+}
+
+#aboutText .sectionSubtitle,
+#aboutText .sectionTitle {
+  color: #191919;
+}
+
+#aboutText i {
+  color: #191919;
+  background-color: transparent;
+}
+
+.aboutDescription {
+  display: flex;
+  align-items: center;
+}
+
+.aboutDescription h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem
+}
+
+#aboutConquests {
+  flex: 1 1 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
