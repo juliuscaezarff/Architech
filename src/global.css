@@ -8,3 +8,10 @@
 img {
   width: 100%
 }
+
+i {
+  background-color: #d92123;
+  color: #ffff;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
