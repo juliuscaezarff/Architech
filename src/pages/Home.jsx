@@ -4,6 +4,7 @@ import Header from '../components/layout/Header'
 import Services from '../components/layout/Services'
 import Conquests from '../components/layout/Conquests'
 import Team from '../components/layout/Team'
+import Footer from '../components/layout/Footer'
 
 import Image from '/main-banner.avif'
 
@@ -196,6 +197,7 @@ function Home() {
           </form>
         </div>
       </section>
+      <Footer />
     </div>
   )
 }
