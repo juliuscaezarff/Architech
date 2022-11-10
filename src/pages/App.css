@@ -124,3 +124,34 @@
   flex-wrap: wrap;
   padding: 2rem;
 }
+
+/* Testimonials */
+#testimonials {
+  display: flex;
+  align-items: center;
+}
+#testimonialsInformation {
+  padding: 3rem;
+}
+
+.author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author .authorName {
+  color: #d92123;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.authorJob {
+  color: #191919;
+}
+
+.author img {
+  width: 100px;
+  height: 100px;
+}
