@@ -162,7 +162,7 @@ function Home() {
           />
         </div>
       </section>
-      <section id="contact" className="textImageContainer">
+      <section id="contact" className="textImageSection">
         <div id="contactImageContainer" className="imageContainer">
           <img src="/main-banner.avif" alt="" />
         </div>
