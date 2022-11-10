@@ -3,6 +3,7 @@ import './App.css'
 import Header from '../components/layout/Header'
 import Services from '../components/layout/Services'
 import Conquests from '../components/layout/Conquests'
+import Team from '../components/layout/Team'
 
 import Image from '/main-banner.avif'
 
@@ -125,6 +126,11 @@ function Home() {
             <i><FaQuoteLeft /></i>
             <img src="/main-banner.avif" alt="" />
           </div>
+      </section>
+      <section id='team'>
+        <span className='square'></span>
+        <h2>A arqitec tem um time de desenvolvedores a sua disposição.</h2>
+        <Team />
       </section>
     </div>
   )
