@@ -6,7 +6,7 @@ import Conquests from '../components/layout/Conquests'
 
 import Image from '/main-banner.avif'
 
-import { FaUsers } from 'react-icons/fa'
+import { FaUsers, FaQuoteLeft } from 'react-icons/fa'
 import { BsBank, BsFillBriefcaseFill, BsFillBookFill } from 'react-icons/bs'
 
 function Home() {
@@ -100,6 +100,31 @@ function Home() {
             text={"Prêmios empresariais"}
           />
         </div>
+      </section>
+      <section id='testimonials' className='textImageSection'>
+          <div id="testimonialsInformation" className="textContainer">
+            <p className='sectionSubtitle'>Dpoimentos de clients</p>
+            <h3 className='sectionTitle'>A arquitec e seus devs construiram um software melhor para a minha empresa.</h3>
+            <div className="author">
+              <div className="authorInfo">
+                <p className='authorName'>Jhon Doe</p>
+                <p className='authorJob'>CEO da Empresa X</p>
+              </div>
+              <img src="/main-banner.avif" alt="Jhon Doe" />
+            </div>
+            <h3 className='sectionTitle'>Uma equipe ótima que entregou o produto em tempo record</h3>
+            <div className="author">
+              <div className="authorInfo">
+                <p className='authorName'>Lucas G</p>
+                <p className='authorJob'>CTO Empresa Y</p>
+              </div>
+              <img src="/main-banner.avif" alt="Jhon Doe" />
+            </div>
+          </div>
+          <div id="testimonialImageContainer" className="imageContainer">
+            <i><FaQuoteLeft /></i>
+            <img src="/main-banner.avif" alt="" />
+          </div>
       </section>
     </div>
   )
