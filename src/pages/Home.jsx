@@ -7,7 +7,7 @@ import Team from '../components/layout/Team'
 
 import Image from '/main-banner.avif'
 
-import { FaUsers, FaQuoteLeft } from 'react-icons/fa'
+import { FaUsers, FaQuoteLeft, FaEnvelope } from 'react-icons/fa'
 import { BsBank, BsFillBriefcaseFill, BsFillBookFill } from 'react-icons/bs'
 
 function Home() {
@@ -69,68 +69,132 @@ function Home() {
             conseguindo os melhores resultados
           </h3>
           <div className="aboutDescription">
-            <i><BsFillBriefcaseFill /></i>
+            <i>
+              <BsFillBriefcaseFill />
+            </i>
             <div>
               <h4>Advogados Atualizados</h4>
-              <p>Nós promovemos treinamnetos mensais a todos os nossos colaboradores</p>
+              <p>
+                Nós promovemos treinamnetos mensais a todos os nossos
+                colaboradores
+              </p>
             </div>
           </div>
           <div className="aboutDescription">
-            <i><BsFillBookFill /></i>
+            <i>
+              <BsFillBookFill />
+            </i>
             <div>
               <h4>Domínio das novas tecnologias</h4>
-              <p>Nossos engenheiros são especializados em várias tecnologias para construir softwares melhores</p>
+              <p>
+                Nossos engenheiros são especializados em várias tecnologias para
+                construir softwares melhores
+              </p>
             </div>
           </div>
         </div>
-        <div id='aboutConquests'>
-          <Conquests 
-            number={50}
-            text={"Engenheiros"}
+        <div id="aboutConquests">
+          <Conquests number={50} text={'Engenheiros'} />
+          <Conquests number={120} text={'Projetos'} />
+          <Conquests number={30} text={'Empresas parceiras'} />
+          <Conquests number={7} text={'Prêmios empresariais'} />
+        </div>
+      </section>
+      <section id="testimonials" className="textImageSection">
+        <div id="testimonialsInformation" className="textContainer">
+          <p className="sectionSubtitle">Dpoimentos de clients</p>
+          <h3 className="sectionTitle">
+            A arquitec e seus devs construiram um software melhor para a minha
+            empresa.
+          </h3>
+          <div className="author">
+            <div className="authorInfo">
+              <p className="authorName">Jhon Doe</p>
+              <p className="authorJob">CEO da Empresa X</p>
+            </div>
+            <img src="/main-banner.avif" alt="Jhon Doe" />
+          </div>
+          <h3 className="sectionTitle">
+            Uma equipe ótima que entregou o produto em tempo record
+          </h3>
+          <div className="author">
+            <div className="authorInfo">
+              <p className="authorName">Lucas G</p>
+              <p className="authorJob">CTO Empresa Y</p>
+            </div>
+            <img src="/main-banner.avif" alt="Jhon Doe" />
+          </div>
+        </div>
+        <div id="testimonialImageContainer" className="imageContainer">
+          <i>
+            <FaQuoteLeft />
+          </i>
+          <img src="/main-banner.avif" alt="" />
+        </div>
+      </section>
+      <section id="team">
+        <span className="square"></span>
+        <span className="square"></span>
+        <h2>
+          A <span>arqitec</span> tem um time de desenvolvedores a sua
+          disposição.
+        </h2>
+        <div className="employess">
+          <Team
+            img={Image}
+            name={'Mike Ross'}
+            description={'Software Engineer'}
           />
-           <Conquests 
-            number={120}
-            text={"Projetos"}
+          <Team
+            img={Image}
+            name={'Mark Zuckerberg'}
+            description={'Software Engineer'}
           />
-           <Conquests 
-            number={30}
-            text={"Empresas parceiras"}
+          <Team
+            img={Image}
+            name={'Mike Ross'}
+            description={'BackEnd Developer'}
           />
-           <Conquests 
-            number={7}
-            text={"Prêmios empresariais"}
+          <Team
+            img={Image}
+            name={'Mike Ross'}
+            description={'Android Developer'}
           />
         </div>
       </section>
-      <section id='testimonials' className='textImageSection'>
-          <div id="testimonialsInformation" className="textContainer">
-            <p className='sectionSubtitle'>Dpoimentos de clients</p>
-            <h3 className='sectionTitle'>A arquitec e seus devs construiram um software melhor para a minha empresa.</h3>
-            <div className="author">
-              <div className="authorInfo">
-                <p className='authorName'>Jhon Doe</p>
-                <p className='authorJob'>CEO da Empresa X</p>
-              </div>
-              <img src="/main-banner.avif" alt="Jhon Doe" />
+      <section id="contact" className="textImageContainer">
+        <div id="contactImageContainer" className="imageContainer">
+          <img src="/main-banner.avif" alt="" />
+        </div>
+        <div id="contactInformation" className="textContainer">
+          <i>
+            <FaEnvelope />
+          </i>
+          <p className="sectionSubtitle">Entre em contato</p>
+          <form>
+            <div className="formControl">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Digite seu nome"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu melhor E-mail"
+              />
             </div>
-            <h3 className='sectionTitle'>Uma equipe ótima que entregou o produto em tempo record</h3>
-            <div className="author">
-              <div className="authorInfo">
-                <p className='authorName'>Lucas G</p>
-                <p className='authorJob'>CTO Empresa Y</p>
-              </div>
-              <img src="/main-banner.avif" alt="Jhon Doe" />
-            </div>
-          </div>
-          <div id="testimonialImageContainer" className="imageContainer">
-            <i><FaQuoteLeft /></i>
-            <img src="/main-banner.avif" alt="" />
-          </div>
-      </section>
-      <section id='team'>
-        <span className='square'></span>
-        <h2>A arqitec tem um time de desenvolvedores a sua disposição.</h2>
-        <Team />
+            <input type="text" name="phone" id="phone" placeholder="Telefone" />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Sua mensagem..."
+            ></textarea>
+            <input type="submit" value="Enviar" className="btn" />
+          </form>
+        </div>
       </section>
     </div>
   )
