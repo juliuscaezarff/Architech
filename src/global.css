@@ -15,3 +15,134 @@ i {
   font-size: 2.5rem;
   padding: 2rem;
 }
+
+/* Responsive */
+
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  i {
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+
+  /* NavBar */
+  #navbar {
+    display: none;
+  }
+
+  .banner {
+    max-width: 100%;
+    padding: 4rem 2rem;
+  }
+
+  .banner h2 {
+    font-size: 3rem;
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  /* áreas de atuação */
+  .btn {
+    align-self: initial;
+  }
+
+  .imageContainer {
+    flex: 1 1 100%;
+  }
+
+  #otherSevices {
+    flex-wrap: wrap;
+  }
+
+  /* about */
+  #about {
+    gap: 0;
+  }
+
+  #aboutText,
+  #aboutConquests {
+    flex: 1 1 100%;
+  }
+
+  #aboutDescription {
+    gap: 1rem;
+  }
+
+  #aboutDescription i {
+    padding: 0;
+    min-width: 40px;
+  }
+
+  #about #aboutConquests .conquest {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #868686;
+  }
+
+  /* testimonials */
+  .textContainer {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  /* team */
+  #team {
+    margin-top: 2rem;
+  }
+
+  #team h2 {
+    font-size: 2rem;
+  }
+
+  .employess {
+    flex-wrap: wrap;
+  }
+
+  /* contact */
+  #contact {
+    padding-bottom: 0;
+  }
+
+  #contactInformation {
+    padding: 7rem 1rem;
+  }
+
+  #contactInformation .formControl {
+    flex-direction: column;
+  }
+
+  #contactInformation .btn {
+    align-self: auto;
+  }
+
+  /* footer */
+  #footer {
+    flex-wrap: wrap;
+  }
+
+  .footerBrand {
+    text-align: center;
+  }
+
+  .contactInfo,
+  .linksContainer {
+    width: 100%;
+  }
+
+  .linksContainer {
+    margin-bottom: 1rem;
+  }
+
+  .linksContainer h4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .networks {
+    margin-bottom: 3rem;
+  }
+}
