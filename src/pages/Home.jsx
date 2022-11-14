@@ -19,8 +19,7 @@ function Home() {
         <div id="expertiseInformation" className="textContainer">
           <p className="sectionSubtitle">Áreas de atuação</p>
           <h3 className="sectionTitle">
-            Nossos especialistas podem ajudar você em Direito Civil, Ambiental,
-            Empresarial.
+            Nossos desenvolvedores podem ajudar sua empresa com um software melhor e uma IA mais inteligente.
           </h3>
           <a href="#" className="btn">
             Saiba Mais
@@ -39,7 +38,7 @@ function Home() {
           <Services
             img={Image}
             icon={BsBank}
-            text={'Bancos e Finaças pessoais'}
+            text={'Laboratórios'}
             paragraph={
               'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui commodi ut eum error, praesentium debitis ad minima vero obcaecati quia quasi voluptatum molestias fuga laborum inventore beatae fugiat? Labore'
             }
@@ -47,7 +46,7 @@ function Home() {
           <Services
             img={Image}
             icon={BsBank}
-            text={'Construção de imóveis'}
+            text={'Tecnologias'}
             paragraph={
               'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui commodi ut eum error, praesentium debitis ad minima vero obcaecati quia quasi voluptatum molestias fuga laborum inventore beatae fugiat? Labore'
             }
@@ -55,7 +54,7 @@ function Home() {
           <Services
             img={Image}
             icon={BsBank}
-            text={'Empresas e funcionários'}
+            text={'Empresa e funcionários'}
             paragraph={
               'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui commodi ut eum error, praesentium debitis ad minima vero obcaecati quia quasi voluptatum molestias fuga laborum inventore beatae fugiat? Labore'
             }
@@ -74,9 +73,9 @@ function Home() {
               <BsFillBriefcaseFill />
             </i>
             <div>
-              <h4>Advogados Atualizados</h4>
+              <h4>Profissionais atualizados</h4>
               <p>
-                Nós promovemos treinamnetos mensais a todos os nossos
+                Nós promovemos treinamentos mensais a todos os nossos
                 colaboradores
               </p>
             </div>
@@ -105,12 +104,12 @@ function Home() {
         <div id="testimonialsInformation" className="textContainer">
           <p className="sectionSubtitle">Dpoimentos de clients</p>
           <h3 className="sectionTitle">
-            A arquitec e seus devs construiram um software melhor para a minha
+            A Architect e seus devs construiram um software melhor para a minha
             empresa.
           </h3>
           <div className="author">
             <div className="authorInfo">
-              <p className="authorName">Jhon Doe</p>
+              <p className="authorName">Bruce Wayne</p>
               <p className="authorJob">CEO da Empresa X</p>
             </div>
             <img src="/main-banner.avif" alt="Jhon Doe" />
@@ -120,7 +119,7 @@ function Home() {
           </h3>
           <div className="author">
             <div className="authorInfo">
-              <p className="authorName">Lucas G</p>
+              <p className="authorName">Lucas Guerra</p>
               <p className="authorJob">CTO Empresa Y</p>
             </div>
             <img src="/main-banner.avif" alt="Jhon Doe" />
@@ -137,13 +136,13 @@ function Home() {
         <span className="square"></span>
         <span className="square"></span>
         <h2>
-          A <span>arqitec</span> tem um time de desenvolvedores a sua
+          A <span>Architect</span> tem um time de desenvolvedores a sua
           disposição.
         </h2>
         <div className="employess">
           <Team
             img={Image}
-            name={'Mike Ross'}
+            name={'Guilherme Feitosa'}
             description={'Software Engineer'}
           />
           <Team
@@ -153,12 +152,12 @@ function Home() {
           />
           <Team
             img={Image}
-            name={'Mike Ross'}
+            name={'ANthony Andrew'}
             description={'BackEnd Developer'}
           />
           <Team
             img={Image}
-            name={'Mike Ross'}
+            name={'Sophia Emma'}
             description={'Android Developer'}
           />
         </div>
