@@ -1,5 +1,3 @@
-import './Services.css'
-
 const Services = ({text, paragraph, icon, img}) => {
   return (
       <div className="service">
