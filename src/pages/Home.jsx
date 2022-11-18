@@ -6,7 +6,13 @@ import Conquests from '../components/layout/Conquests'
 import Team from '../components/layout/Team'
 import Footer from '../components/layout/Footer'
 
-import Image from '/main-banner.avif'
+import Meeting from '/meeting.avif'
+import Technologies from '/technologies.avif'
+import Company from '/team.avif'
+import Michael from '/employee_1.jpg'
+import Mark from '/homem2.jpg'
+import Anthony from '/homem1.jpg'
+import Sophia from '/employee_4.jpg'
 
 import { FaUsers, FaQuoteLeft, FaEnvelope } from 'react-icons/fa'
 import { BsBank, BsFillBriefcaseFill, BsFillBookFill } from 'react-icons/bs'
@@ -36,15 +42,15 @@ function Home() {
         </div>
         <div id="otherSevices">
           <Services
-            img={Image}
+            img={Company}
             icon={BsBank}
-            text={'Laboratórios'}
+            text={'Work space'}
             paragraph={
               'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui commodi ut eum error, praesentium debitis ad minima vero obcaecati quia quasi voluptatum molestias fuga laborum inventore beatae fugiat? Labore'
             }
           />
           <Services
-            img={Image}
+            img={Technologies}
             icon={BsBank}
             text={'Tecnologias'}
             paragraph={
@@ -52,7 +58,7 @@ function Home() {
             }
           />
           <Services
-            img={Image}
+            img={Meeting}
             icon={BsBank}
             text={'Empresa e funcionários'}
             paragraph={
@@ -112,7 +118,7 @@ function Home() {
               <p className="authorName">Bruce Wayne</p>
               <p className="authorJob">CEO da Empresa X</p>
             </div>
-            <img src="/main-banner.avif" alt="Jhon Doe" />
+            <img src="/author_1.jpg" alt="Jhon Doe" />
           </div>
           <h3 className="sectionTitle">
             Uma equipe ótima que entregou o produto em tempo record
@@ -122,14 +128,14 @@ function Home() {
               <p className="authorName">Lucas Guerra</p>
               <p className="authorJob">CTO Empresa Y</p>
             </div>
-            <img src="/main-banner.avif" alt="Jhon Doe" />
+            <img src="/author_2.jpg" alt="Jhon Doe" />
           </div>
         </div>
         <div id="testimonialImageContainer" className="imageContainer">
           <i>
             <FaQuoteLeft />
           </i>
-          <img src="/main-banner.avif" alt="" />
+          <img src="/graphic.jpg" alt="" />
         </div>
       </section>
       <section id="team">
@@ -141,22 +147,22 @@ function Home() {
         </h2>
         <div className="employess">
           <Team
-            img={Image}
-            name={'Guilherme Feitosa'}
+            img={Michael}
+            name={'Michael Brand'}
             description={'Software Engineer'}
           />
           <Team
-            img={Image}
+            img={Mark}
             name={'Mark Zuckerberg'}
             description={'Software Engineer'}
           />
           <Team
-            img={Image}
-            name={'ANthony Andrew'}
+            img={Anthony}
+            name={'Anthony Andrew'}
             description={'BackEnd Developer'}
           />
           <Team
-            img={Image}
+            img={Sophia}
             name={'Sophia Emma'}
             description={'Android Developer'}
           />
@@ -164,7 +170,7 @@ function Home() {
       </section>
       <section id="contact" className="textImageSection">
         <div id="contactImageContainer" className="imageContainer">
-          <img src="/main-banner.avif" alt="" />
+          <img src="/main_banner3.jpg" alt="" />
         </div>
         <div id="contactInformation" className="textContainer">
           <i>
