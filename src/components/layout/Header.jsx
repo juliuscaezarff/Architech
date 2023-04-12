@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header id="header">
       <div id="innerHeader">
-        <h2 id="brand">Architect</h2>
+        <h2 id="brand">Architech</h2>
         <nav id="navbar">
           <a href="#header">Início</a>
           <a href="#expertise-areas">Serviços</a>
@@ -16,7 +16,7 @@ const Header = () => {
       <div className="banner active">
         <span className="square"></span>
         <h2>Melhores experts do mercado</h2>
-        <p>Os engenheiros de software mais bem qualificads estão aqui</p>
+        <p>Os engenheiros de software mais bem qualificados estão aqui</p>
       </div>
       <div className="dots">
         <div className="dot active"></div>
