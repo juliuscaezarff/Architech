@@ -110,7 +110,7 @@ function Home() {
         <div id="testimonialsInformation" className="textContainer">
           <p className="sectionSubtitle">Dpoimentos de clients</p>
           <h3 className="sectionTitle">
-            A Architect e seus devs construiram um software melhor para a minha
+            A Architech e seus devs construiram um software melhor para a minha
             empresa.
           </h3>
           <div className="author">
@@ -142,7 +142,7 @@ function Home() {
         <span className="square"></span>
         <span className="square"></span>
         <h2>
-          A <span>Architect</span> tem um time de desenvolvedores a sua
+          A <span>Architech</span> tem um time de desenvolvedores a sua
           disposição.
         </h2>
         <div className="employess">
