@@ -1,0 +1,75 @@
+#testimonials {
+  display: flex;
+  align-items: center;
+}
+#testimonialsInformation {
+  padding: 3rem;
+}
+
+.author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author .authorName {
+  color: #d92123;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.authorJob {
+  color: #191919;
+}
+
+.author img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Team */
+#team {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.square {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: #d92123;
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 40px;
+}
+
+#team h2 {
+  font-size: 3rem;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+#team span {
+  text-decoration: underline;
+}
+
+#team .square {
+  background-color: #eff3f4;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  top: -25px;
+}
+
+.employess {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
